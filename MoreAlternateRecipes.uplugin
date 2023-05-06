@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "3.0.0",
+	"SemVersion": "3.0.0",
+	"FriendlyName": "MoreAlternateRecipes",
+	"Description": "Add more alternative recipes to the Game and item slots",
+	"Category": "Modding",
+	"CreatedBy": "Kyri123/Kyrium",
+	"CreatedByURL": "https://github.com/Kyri123",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"SemVersion": "^3.1.0",
+			"Enabled": false
+		},
+		{
+			"Name": "KLib",
+			"SemVersion": "^1.8.0",
+			"bIsOptional": false,
+			"bIsBasePlugin": false,
+			"Enabled": true
+		},
+		{
+			"Name": "KBFL",
+			"SemVersion": "^1.5.0",
+			"bIsOptional": false,
+			"bIsBasePlugin": false,
+			"Enabled": true
+		}
+	]
+}
